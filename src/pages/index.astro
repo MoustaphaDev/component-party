@@ -14,7 +14,7 @@ const sectionNames = await fs.readdir(contentURL);
   <div class="space-y-12">
     {
       sectionNames.map((sectionName) => (
-        <Section path={`${contentURL}/${sectionName}`} />
+          <Section path={`${contentURL}/${sectionName}`} />
       ))
     }
   </div>
